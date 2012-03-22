@@ -14,3 +14,29 @@ Caketrap is a simple HTML5 Ready Bootstrap for CakePHP Applications.
 1. CakePHP 2.0.x Security Authentication
 2. Simples users register
 
+
+## Quick start
+---
+- Create an table named `users` in your database with the following structure:
+
+
+<pre>CREATE TABLE users (
+id int(11) NOT NULL AUTO_INCREMENT,
+username varchar(255) NOT NULL,
+password varchar(255) NOT NULL,
+name varchar(255) NOT NULL,
+created datetime NOT NULL,
+modified datetime NOT NULL,
+PRIMARY KEY (id)
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
+</pre>
+
+
+- Open the file `app/Config/database.php` and change the database information
+
+
+
+## Questions / Bugs
+---
+Have a question or found a bug? Please create an issue [here][] on GitHub!
+[here]: https://github.com/hugodias/caketrap/issues
