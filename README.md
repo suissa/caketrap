@@ -17,7 +17,7 @@ Caketrap is a simple HTML5 Ready Bootstrap for CakePHP Applications.
 
 ## Quick start
 
-- Create an table named `users` in your database with the following structure:
+- Create a table named `users` in your database with the following structure:
 
 
 <pre>CREATE TABLE users (
