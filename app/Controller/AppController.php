@@ -32,4 +32,15 @@ App::uses('Controller', 'Controller');
  * @link http://book.cakephp.org/2.0/en/controllers.html#the-app-controller
  */
 class AppController extends Controller {
+	
+	public $components = array('Auth','Session');
+
+	public function beforeFilter()
+	{
+		$this->Auth->authenticate = array('Form');
+
+		$this->Auth->loginRedirect = array('action' => 'home', 'controller' => 'users');
+		$this->Auth->logoutRedirect = array('action' => 'home', 'controller' => 'pages');
+		$this->Auth->authError = 'You are not allowed to see that.';
+	}
 }
