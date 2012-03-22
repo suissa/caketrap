@@ -16,7 +16,7 @@ Caketrap is a simple HTML5 Ready Bootstrap for CakePHP Applications.
 
 
 ## Quick start
----
+
 - Create an table named `users` in your database with the following structure:
 
 
@@ -37,6 +37,6 @@ PRIMARY KEY (id)
 
 
 ## Questions / Bugs
----
+
 Have a question or found a bug? Please create an issue [here][] on GitHub!
 [here]: https://github.com/hugodias/caketrap/issues
